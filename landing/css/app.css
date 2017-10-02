@@ -1,0 +1,100 @@
+/* ==============================
+ * PLUGINS & THIRD PARTY STYLES
+ * ============================== */
+/* ==============================
+ * BASE STYLES
+ * ============================== */
+/*  COMMON.SASS */
+body {
+  font-family: "PT Sans", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Titillium Web", sans-serif;
+  text-transform: uppercase; }
+
+h2 {
+  font-size: 3em; }
+
+header {
+  padding: 40px 40px 0; }
+  header::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.brand-primary {
+  overflow: hidden;
+  text-indent: 101%;
+  white-space: nowrap;
+  background: center no-repeat;
+  height: 125px;
+  width: 125px;
+  margin: 15px;
+  float: left; }
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  background-image: url("../image/brightside-studios-logo_2x.png");
+  background-size: 125px 125px; }
+a {
+  color: #373737;
+  border-bottom: solid 1px #373737; }
+  a:hover {
+    color: brand-primary; }
+
+section, aside, article {
+  margin-top: 40px;
+  margin-bottom: 40px; }
+  section::after, aside::after, article::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  font-family: "PT Sans", sans-serif;
+  background: #f26722; }
+  button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+    background: #da5d1f; }
+
+/* NAV.SASS */
+nav {
+  float: right;
+  margin-top: 60px;
+  font-weight: bold; }
+  nav li {
+    display: inline-block;
+    padding: 0 20px; }
+
+/* FOOTER.SASS */
+footer {
+  text-align: center;
+  padding: 40px 0; }
+
+/* ==============================
+ * LAYOUT STYLES
+ * ============================== */
+/* HOME.SASS */
+.basic-info::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.widgets {
+  background: #f4f6ef;
+  padding: 40px; }
+  .widgets h3 {
+    font-size: 2em;
+    border-bottom: solid 1px #373737; }
+
+/* ==============================
+ * MODULE STYLES
+ * ============================== */
+/* CTA */
+.call-to-action {
+  border: solid 1px #040404;
+  padding: 40px;
+  background: #373737;
+  color: #f4f6ef; }
+
+/* WIDGET */
+
+/*# sourceMappingURL=app.css.map */

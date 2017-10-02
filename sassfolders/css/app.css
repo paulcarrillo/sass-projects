@@ -1,0 +1,21 @@
+body {
+  background: pink;
+  color: white;
+  font-size: 18px; }
+
+h1 {
+  font-family: Georgia, Times, serif; }
+
+h2, h3 {
+  font-family: Helvetica, Arial; }
+
+#header {
+  border: solid 1px black;
+  padding: 40px; }
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: gold; }
+
+/*# sourceMappingURL=app.css.map */
